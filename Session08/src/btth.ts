@@ -49,6 +49,9 @@ class Library <T extends{id:number, name : string, author:string}> {
             }
         }
     }
+    function findItemById<T extends { id: number }>(items: T[], id: number): T | undefined {
+    return items.find(item => item.id === id);
+}
     // 5. lay tat ca sach trong thu vien
     // findBookByTitleOrAuthor(searchTerm :string) : 
 }
