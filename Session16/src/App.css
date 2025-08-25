@@ -1,0 +1,44 @@
+.Primary{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.Secondary{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.Success{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.Warning{
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.Danger{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.Info{
+    background-color: cyan;
+    border-radius: 5px;
+}
+
+.Light{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Dark{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
