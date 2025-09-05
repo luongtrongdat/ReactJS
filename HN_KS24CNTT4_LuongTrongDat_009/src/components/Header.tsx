@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div
-      style={{ backgroundColor: "#000000", color: "#fff", padding: "12px 0px" }}
+      style={{ backgroundColor: "green", color: "#fff", padding: "12px 0px" }}
     >
       <div
         style={{
