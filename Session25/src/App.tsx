@@ -1,0 +1,73 @@
+import React from 'react'
+
+export default function App() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+
+
+
+
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+// import About from './pages/About'
+// import Contact from './pages/Contact'
+// import NotFound from './pages/NotFound'
+// import Admin from './layout/Admin'
+// import UserManager from './pages/UserManager'
+// import ProductManager from './pages/ProductManager'
+// import './App.css'
+// import Oder from './pages/Oder'
+// import Login from './pages/Login'
+// import ProductDetail from './pages/ProductDetail'
+
+// export default function App() {
+//   const router = createBrowserRouter([
+//     {
+//       path: '/about',
+//       element: <About></About>
+//     },
+//     {
+//       path: 'contact',
+//       element: <Contact></Contact>
+//     },
+//     {
+//       path: 'login',
+//       element: <Login></Login>
+//     },
+//     {
+//       path: '/admin',
+//       element: <Admin></Admin>,
+//       children: [
+//         {
+//           path: 'user',
+//           element: <UserManager></UserManager>
+//         },
+//         {
+//           path: 'product',
+//           element: <ProductManager></ProductManager>
+//         },
+//         {
+//           path: 'oder',
+//           element: <Oder></Oder>
+//         },
+//         {
+//           path: 'product/:id',
+//           element: <ProductDetail></ProductDetail>
+//         }
+//       ]
+//     },
+//     {
+//       path: '*',
+//       element: <NotFound></NotFound>
+//     }
+//   ])
+//   return (
+//     <div>
+//       <RouterProvider router={router}></RouterProvider>
+//     </div>
+//   )
+// }
