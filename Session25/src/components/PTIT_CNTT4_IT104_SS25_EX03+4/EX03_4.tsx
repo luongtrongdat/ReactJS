@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Login from './Login'
 import Register from './Register'
 
-export default function EXERCISE03() {
+export default function EX03_4() {
     const router = createBrowserRouter([
         {
             path: "login",
