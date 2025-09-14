@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX06</title>
+</head>
+<body>
+    <script>
+        function Task1(callback) {
+            callback();
+            setTimeout(() => {
+                console.log('Task 1 completed');
+            }, 1000);
+        }
+        function Task2(callback) {
+            callback();
+            setTimeout(() => {
+                console.log('Task 2 completed');
+            }, 1500);
+        }
+
+        function Task3() {
+            setTimeout(() => {
+                console.log('Task 3 completed');
+                console.log('All correct');
+            }, 2000);
+        }
+        function runAll() {
+            Task1(() => {
+                Task2(() => {
+                    Task3();
+                });
+            });
+        }
+        runAll();
+    </script>
+</body>
+</html>
