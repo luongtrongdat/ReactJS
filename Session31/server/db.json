@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Học ReactJS",
+      "image": "typicode",
+      "date": "17/09",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "C++",
+      "image": "typicode",
+      "date": "17/09",
+      "status": true
+    },
+    {
+      "id": 3,
+      "title": "C",
+      "image": "typicode",
+      "date": "17/09",
+      "status": true
+    }
+  ]
+}
