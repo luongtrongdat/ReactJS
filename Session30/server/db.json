@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "đạt",
+      "email": "dat@gmail.com",
+      "age": 19
+    },
+    {
+      "id": 2,
+      "name": "trọng",
+      "email": "trong@gmail.com",
+      "age": 20
+    },
+    {
+      "id": 3,
+      "name": "luong",
+      "email": "chluongien@gmail.com",
+      "age": 19
+    }
+  ],
+  "jobs": [
+    {
+      "taskName": "Nau an",
+      "status": false,
+      "id": 1
+    },
+    {
+      "taskName": "Lam bai tap",
+      "status": true,
+      "id": 2
+    },
+    {
+      "taskName": "don nha",
+      "status": false,
+      "id": 3
+    },
+    {
+      "taskName": "choi game",
+      "status": true,
+      "id": 4
+    }
+  ]
+}
