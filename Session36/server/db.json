@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Trong Dat"
+    },
+    {
+      "id": 2,
+      "name": "Dat cute"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 19425,
+      "taskName": "Học",
+      "completed": true,
+      "priority": "Cao"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
