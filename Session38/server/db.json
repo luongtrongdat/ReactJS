@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Bac nhan tam",
+      "author": "D",
+      "year": 2000,
+      "category": "Danh muc 1"
+    },
+    {
+      "id": 2,
+      "title": "Bac nhan",
+      "author": "C",
+      "year": 2000,
+      "category": "Danh muc 2"
+    },
+    {
+      "id": 3,
+      "title": "Bac tam",
+      "author": "E",
+      "year": 2000,
+      "category": "Danh muc 3"
+    }
+  ]
+}
